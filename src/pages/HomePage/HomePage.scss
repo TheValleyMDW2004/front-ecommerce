@@ -1,0 +1,24 @@
+@import "../../styles/variables.scss";
+
+.home-page{
+    display: flex;
+    justify-content: center;
+    
+    &__landing{
+        height: 345px;
+        margin: 10px;
+        background-color: $primary-color;
+    }
+    &__category{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    &__category div{
+        width: 145px;
+        height: 120px;
+        margin: 5px;
+        background-color: $primary-color;
+    }
+}

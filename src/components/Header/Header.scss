@@ -1,0 +1,18 @@
+@import "../../styles/variables.scss";
+.header{
+    background-color: $primary-color;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__icon{
+        width: 30px;
+    }
+    &__icon-container{
+        width: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
